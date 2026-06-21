@@ -49,6 +49,11 @@ tr:nth-child(even){background:#fafaf8}
 .process-map td{text-align:center;padding:.4rem .3rem;font-size:.75rem}
 .process-map .high{background:#fff;border:1px solid #ccc}
 .process-map .low{background:#ddd;border:1px solid #bbb}
+.legend{display:flex;gap:1.5rem;margin:.8rem 0 1.5rem;font-size:.8rem;align-items:center}
+.legend span{display:inline-flex;align-items:center;gap:.4rem}
+.legend .swatch{display:inline-block;width:18px;height:14px;border-radius:2px}
+.legend .swatch-high{background:#fff;border:1px solid #ccc}
+.legend .swatch-low{background:#ddd;border:1px solid #bbb}
 
 footer{background:#1a1a1a;color:#aaa;text-align:center;padding:2rem 1.5rem;font-size:.9rem}
 footer a{color:#b8860b}
@@ -153,6 +158,7 @@ footer a{color:#b8860b}
 <tr><td></td><td class="high">Payment Receipt</td><td></td><td></td><td></td><td></td><td class="high">Intellectual Property</td></tr>
 </table>
 </div>
+<div class="legend"><span><span class="swatch swatch-high"></span> High Automation Potential</span><span><span class="swatch swatch-low"></span> Low Automation Potential</span></div>
 
 <h3>The Power of Back-office Automation</h3>
 <p>Back-office automation is linked to other functions, such as front office or employee experience. Some key benefits that can be realized across the organizations are listed below.</p>
@@ -181,6 +187,7 @@ footer a{color:#b8860b}
 <tr><td></td><td></td><td class="high">AML &amp; KYC</td><td class="high">New Content Analysis</td><td class="high">Reporting &amp; Data Analytics</td><td></td></tr>
 </table>
 </div>
+<div class="legend"><span><span class="swatch swatch-high"></span> High Automation Potential</span><span><span class="swatch swatch-low"></span> Low Automation Potential</span></div>
 </section>
 
 <!-- Chapter 13 -->
@@ -199,6 +206,7 @@ footer a{color:#b8860b}
 <tr><td></td><td class="high">Third-party relationship management (TPRM)</td><td></td><td></td><td></td><td class="high">Outbound Transportation</td></tr>
 </table>
 </div>
+<div class="legend"><span><span class="swatch swatch-high"></span> High Automation Potential</span><span><span class="swatch swatch-low"></span> Low Automation Potential</span></div>
 </section>
 
 <!-- Front Office -->
@@ -220,6 +228,7 @@ footer a{color:#b8860b}
 <tr><td></td><td></td><td class="high">Customer Acquisition</td><td class="high">Contract Expiry/Renewal</td><td></td><td></td></tr>
 </table>
 </div>
+<div class="legend"><span><span class="swatch swatch-high"></span> High Automation Potential</span><span><span class="swatch swatch-low"></span> Low Automation Potential</span></div>
 </section>
 
 <!-- Employee Experience -->
@@ -237,6 +246,7 @@ footer a{color:#b8860b}
 <tr><td></td><td></td><td class="high">Office Support Activities</td><td></td><td></td><td class="low">Examinations and certifications</td><td></td></tr>
 </table>
 </div>
+<div class="legend"><span><span class="swatch swatch-high"></span> High Automation Potential</span><span><span class="swatch swatch-low"></span> Low Automation Potential</span></div>
 </section>
 
 <!-- Chapter 16 -->
@@ -373,7 +383,12 @@ footer a{color:#b8860b}
 <p>While the concept of business and technical teams sounds straightforward, we know that each company contains a complex mix of varying roles, skill sets, and organizational structures. To help clarify, let's look at the key roles involved in healthy democratization.</p>
 
 <h3>Democratization Pyramid</h3>
-<div class="pyramid">
+<div class="pyramid" style="display:flex;align-items:center;justify-content:center;gap:1.5rem">
+<div style="text-align:left;font-size:.75rem;color:#555;border-right:2px solid #b8860b;padding-right:.8rem;line-height:1.6">
+<div style="margin-bottom:2.5rem"><strong>Typical automation<br>builders in most<br>companies</strong></div>
+<div><strong>Untapped capacity<br>Untapped knowledge<br>Untapped opportunity</strong></div>
+</div>
+<div style="flex:1;max-width:400px">
 <div class="pyramid-row" style="width:20%;background:#333">1% — Technical Specialists</div>
 <div class="pyramid-row" style="width:30%;background:#444">3% — IT Administrators</div>
 <div class="pyramid-row" style="width:40%;background:#555">6% — Business Technologists</div>
@@ -381,7 +396,11 @@ footer a{color:#b8860b}
 <div class="pyramid-row" style="width:70%;background:#888">30% — Business Power Users</div>
 <div class="pyramid-row" style="width:85%;background:#aaa;color:#1a1a1a">45% — Business Stakeholders</div>
 </div>
-<p><em>Top 1–15% = Recommended automation builders in a democratized model. Bottom 30–45% = Individuals typically not interested in building automations. The gap between represents untapped capacity, untapped knowledge, untapped opportunity.</em></p>
+<div style="text-align:right;font-size:.75rem;color:#555;border-left:2px solid #b8860b;padding-left:.8rem;line-height:1.6">
+<div style="margin-bottom:1rem"><strong>Recommended<br>automation builders<br>in a democratized<br>model</strong></div>
+<div style="margin-top:2rem"><strong>Individuals typically<br>not interested in<br>building automations</strong></div>
+</div>
+</div>
 
 <h3>Roles Table</h3>
 <table>
