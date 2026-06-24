@@ -6,7 +6,14 @@
 <title>The Automation Mindset — Knowledge Bank</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Georgia,'Times New Roman',serif;line-height:1.8;color:#1a1a1a;background:#fafaf8}
+body{font-family:Georgia,'Times New Roman',serif;line-height:1.8;color:#1a1a1a;background:#f5e6c8}
+#new-mindset{background:#1a1a1a;color:#f0e8d8;padding:2.5rem;border-radius:10px;border:3px solid #b8860b;box-shadow:0 0 20px rgba(184,134,11,.3)}
+#new-mindset h2,#new-mindset h3{color:#f5d590}
+#new-mindset th{background:#b8860b;color:#fff}
+#new-mindset td{border-color:#444;color:#f0e8d8}
+#new-mindset tr:nth-child(even){background:#2a2a2a}
+#new-mindset blockquote{border-left-color:#f5d590;color:#ccc}
+#new-mindset a{color:#f5d590}
 a{color:#b8860b;text-decoration:none}
 a:hover{text-decoration:underline}
 
@@ -83,6 +90,7 @@ footer a{color:#b8860b}
 <li><a href="#ch13">13. Supplier Operations</a></li>
 <li><a href="#front">Front Office</a></li>
 <li><a href="#employee">Employee Experience</a></li>
+<li><a href="#new-mindset">New Automation Mindset</a></li>
 <li><a href="#ch16">16. Automation Ecosystem</a></li>
 <li><a href="#ch17">17. Enterprise Automation</a></li>
 <li><a href="#ch18">18. Operating Models</a></li>
@@ -247,6 +255,61 @@ footer a{color:#b8860b}
 </table>
 </div>
 <div class="legend"><span><span class="swatch swatch-high"></span> → <strong>High</strong> Automation Potential</span><span><span class="swatch swatch-low"></span> → <strong>Low</strong> Automation Potential</span></div>
+</section>
+
+<!-- New Automation Mindset -->
+<section id="new-mindset">
+<h2>The New Automation Mindset</h2>
+<p class="meta">Three Mindsets · Required Capabilities · Orchestration, Plasticity, Democratization</p>
+
+<blockquote>"In the end, a strategy is nothing but good intentions unless it's effectively implemented." — Clayton Christensen</blockquote>
+
+<p>In this chapter, we'll look at the technical and business capabilities we need for the new automation mindset. We've summarized the capabilities required for each mindset here:</p>
+
+<div style="text-align:center;margin:2rem 0">
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" style="max-width:700px;width:100%;font-family:Arial,sans-serif">
+<!-- Outer ring -->
+<circle cx="350" cy="210" r="145" fill="none" stroke="#999" stroke-width="28"/>
+<!-- Outer ring labels -->
+<text x="350" y="80" text-anchor="middle" font-size="11" font-weight="bold" fill="#333" letter-spacing="3">ORCHESTRATION</text>
+<text x="230" y="355" text-anchor="middle" font-size="11" font-weight="bold" fill="#333" letter-spacing="3" transform="rotate(-55,230,355)">DEMOCRATIZATION</text>
+<text x="470" y="355" text-anchor="middle" font-size="11" font-weight="bold" fill="#333" letter-spacing="3" transform="rotate(55,470,355)">PLASTICITY</text>
+<!-- Inner circle background -->
+<circle cx="350" cy="210" r="115" fill="#666"/>
+<!-- Center white circle -->
+<circle cx="350" cy="210" r="60" fill="#fff"/>
+<!-- Puzzle dividers (3 sections) -->
+<line x1="350" y1="150" x2="350" y2="95" stroke="#fff" stroke-width="2"/>
+<line x1="298" y1="240" x2="260" y2="270" stroke="#fff" stroke-width="2"/>
+<line x1="402" y1="240" x2="440" y2="270" stroke="#fff" stroke-width="2"/>
+<!-- Section fills -->
+<path d="M350 150 A60 60 0 0 0 298 240 L350 210 Z" fill="#555"/>
+<path d="M298 240 A60 60 0 0 0 402 240 L350 210 Z" fill="#444"/>
+<path d="M402 240 A60 60 0 0 1 350 150 L350 210 Z" fill="#555"/>
+<!-- Center text -->
+<text x="350" y="200" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">The New</text>
+<text x="350" y="214" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">Automation</text>
+<text x="350" y="228" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">Mindset</text>
+<!-- Mindset labels -->
+<text x="350" y="130" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">Process</text>
+<text x="350" y="144" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">Mindset</text>
+<text x="280" y="280" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">Scale</text>
+<text x="280" y="294" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">Mindset</text>
+<text x="420" y="280" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">Growth</text>
+<text x="420" y="294" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">Mindset</text>
+</svg>
+</div>
+
+<h3>Required Capabilities by Mindset</h3>
+<table>
+<tr><th>Mindset</th><th>Outer Ring</th><th>Required Capabilities</th></tr>
+<tr><td><strong>Process Mindset</strong></td><td>Orchestration</td><td><ul style="margin:0;padding-left:1.2rem"><li>Event-driven workflows</li><li>Orchestrates human and system actions</li><li>Interoperates with other specialized automation tools</li></ul></td></tr>
+<tr><td><strong>Growth Mindset</strong></td><td>Plasticity</td><td><ul style="margin:0;padding-left:1.2rem"><li>Low-code</li><li>Experience integration (bots/forms)</li><li>No-code connectivity/connectors</li><li>Events &amp; APIs for reusability</li><li>Cloud-native</li></ul></td></tr>
+<tr><td><strong>Scale Mindset</strong></td><td>Democratization</td><td><ul style="margin:0;padding-left:1.2rem"><li>Accessible builder experience</li><li>Easy to learn</li><li>Low-code / No-code</li><li>Centralized governance &amp; oversight</li><li>Cloud-native / auto-scaling</li></ul></td></tr>
+</table>
+
+<h3>Source</h3>
+<p><img src="photo_2026-06-24_12-17-51.jpg" alt="The New Automation Mindset diagram — page 241" style="max-width:100%;border-radius:6px;border:1px solid #ddd"></p>
 </section>
 
 <!-- Chapter 16 -->
